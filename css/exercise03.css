@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainBackground{
+    background-image: url(../images/exercise03.jpg);
+    height: 500px;
+    background-size: cover;
+    color: white;
+}
+
+.center{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#mainBackground div h1{
+    font-size: 150px;
+    text-align: center;
+    padding-top: 110px;
+}
+
+#mainBackground div h2{
+    padding-top: 35px;
+}
+
+section:nth-child(2){
+    display: flex;
+}
+
+#article1{
+    border: 2px solid red;
+}
+
+#article2{
+    border: 2px solid violet;
+}
+
+footer{
+    background-color: black;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding-right: 40px;
+}

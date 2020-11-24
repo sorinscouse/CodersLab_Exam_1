@@ -1,0 +1,201 @@
+
+/* Write your code here.  */
+
+#contactForm {
+    width:600px;
+    margin: 50px auto;
+    border:1px dashed rgba(255, 255, 255, 0.5);
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Do not modify this code below. This is mainly the style you need for the appearance of the form */
+body {
+    background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+    color: white;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    box-sizing: border-box
+}
+
+  label {
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  textarea,
+  input {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    text-align: center;
+    background: none;
+    font-weight: 700;
+    font-family: 'Lato', georgia;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 90%;
+    padding: 1rem;
+    border: 2px dashed rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    cursor: text;
+  }
+  
+  #contactForm div {
+      margin-top:30px;
+  }
+
+  textarea {
+    text-align: left;
+    /* overflow:hidden; */
+    
+    resize: none;
+    width: 90%;
+    border-color: rgba(255, 255, 255, 0)
+  }
+  
+  textarea:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px dashed rgba(255, 255, 255, 1);
+  }
+  
+  textarea:focus:required:valid {
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  textarea:required:valid {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  input {
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+  }
+  
+  input:required,
+  textarea:required {
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+  }
+  
+  input:focus {
+    border-bottom: 2px dashed rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  input:required:valid {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  input:required:invalid {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  :-moz-placeholder {
+    /* Firefox 18- */
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  :-ms-input-placeholder {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+
+  button {
+    background: rgba(236, 181, 62, 0.95);
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    color: white;
+}
+
+form#contactForm{
+  position: relative;
+}
+span.square:nth-of-type(1){
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  border:1px dashed rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 50px;
+}
+span.square:nth-of-type(2){
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border:1px dashed rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 50px;
+}
+span.square:nth-of-type(3){
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border:1px dashed rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 50px;
+}
+
+span.square:nth-of-type(4){
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  border:1px dashed rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 50px;
+}
+span.square:nth-of-type(5){
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border:1px dashed rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 50px;
+}
+span.square:nth-of-type(6){
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  border:1px dashed rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 50px;
+}
